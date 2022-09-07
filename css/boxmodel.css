@@ -1,0 +1,63 @@
+div{
+    width: calc(25% - 30px);
+    /*height: 400px;*/
+    float: right;
+    border: 1px solid red;
+    /*
+    border-left:
+    border-top:
+    border-right:
+    border-bottom:
+    */
+    margin: 10px 15px;
+    /*
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+    */
+    padding: 10px 15px;
+    box-sizing: content-box;
+
+    box-shadow: 0px 0px 5px #dcdcdc;
+    border-radius: 6px;
+    transition: all 500ms;
+}
+div:hover{
+    /*transform: rotate(45deg);*/
+    transform: scale(1.15);
+}
+#box2{
+    background: aqua;
+}
+#box6{
+    background: red;
+}
+.box-green{
+    background: greenyellow;
+}
+.box-special {
+    color: violet;
+    background-color: peru;
+}
+.dp .pc{
+    color: darkgray;
+}
+div .pc{
+    color: deepskyblue;
+}
+.pc{
+    color: lavender;
+}
+body div p{
+    color: teal;
+}
+ div p{
+    color: pink;
+}
+ p{
+     color: darkgreen;
+ }
+img{
+    max-width: 100%;
+}
